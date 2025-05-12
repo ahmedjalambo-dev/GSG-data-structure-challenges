@@ -1,7 +1,7 @@
 import 'linkedlist_node.dart';
 
 Node? reverseList(Node? head) {
-  Node? prev = null;
+  Node? prev;
   Node? current = head;
 
   while (current != null) {
